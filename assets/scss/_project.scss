@@ -1,4 +1,4 @@
-.nano-project-wrapper-2 {
+.bt-project-wrapper-2 {
     .nav {
         border-radius: 30px;
         border: 1px solid rgba(108, 112, 111, 0.50);
@@ -41,7 +41,7 @@
         }
     }
 
-    .nano-project-long-image {
+    .bt-project-long-image {
         position: relative;
         margin-top: 30px;
         z-index: 9;
@@ -83,7 +83,7 @@
             border-radius: 18px;
         }
 
-        .nano-project-content-items {
+        .bt-project-content-items {
             @include flex;
            justify-content: space-between;
             position: absolute;
@@ -95,7 +95,7 @@
             @include transition;
             z-index: 1;
 
-            .nano-content {
+            .bt-content {
                 h3 {
                     a {
                         color: $white;
@@ -116,14 +116,14 @@
                 visibility: visible;
             }
 
-            .nano-project-content-items {
+            .bt-project-content-items {
                 opacity: 1;
                 visibility: visible;
             }
         }
     }
 
-    .nano-project-image {
+    .bt-project-image {
         position: relative;
         margin-top: 30px;
         z-index: 9;
@@ -175,7 +175,7 @@
             border-radius: 18px;
         }
 
-        .nano-project-content-items {
+        .bt-project-content-items {
             @include flex;
             justify-content: space-between;
             position: absolute;
@@ -187,7 +187,7 @@
             @include transition;
             z-index: 1;
 
-            .nano-content {
+            .bt-content {
                 h3 {
                     a {
                         color: $white;
@@ -216,7 +216,7 @@
                 opacity: 1;
                 visibility: visible;
             }
-            .nano-project-content-items {
+            .bt-project-content-items {
                 opacity: 1;
                 visibility: visible;
             }
@@ -229,7 +229,7 @@
     }
 }
 
-.nano-project-section-2 {
+.bt-project-section-2 {
     position: relative;
     margin-top: 15px;
     padding-bottom: 260px !important;

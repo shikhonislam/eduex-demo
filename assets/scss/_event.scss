@@ -1,12 +1,12 @@
-.nano-event-details-area {
-    .nano-image {
+.bt-event-details-area {
+    .bt-image {
         img {
             @include imgw;
             border-radius: 18px;
         }
     }
 
-    .nano-event-details-wrapper {
+    .bt-event-details-wrapper {
        .details-content {
         margin-top: 30px;
 
@@ -212,7 +212,7 @@
     } 
 }
 
-.nano-event-box-items-2 {
+.bt-event-box-items-2 {
     margin-top: 30px;
     @include flex;
     border-radius: 18px;
@@ -222,7 +222,7 @@
         display: block;
     }
 
-    .nano-image {
+    .bt-image {
         max-width: 264px;
 
          @include breakpoint (max-xl){
@@ -239,7 +239,7 @@
         }
     }
 
-    .nano-content {
+    .bt-content {
         padding: 0 30px;
         flex-basis: 60%;
 

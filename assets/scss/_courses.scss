@@ -1,4 +1,4 @@
-.nano-category-box-items {
+.bt-category-box-items {
     border-radius: 18px;
     background: rgba(255, 255, 255, 0.10);
     padding: 50px 28px;
@@ -8,7 +8,7 @@
     position: relative;
     z-index: 9;
 
-    .nano-icon {
+    .bt-icon {
         width: 100px;
         height: 100px;
         line-height: 100px;
@@ -19,7 +19,7 @@
         margin-bottom: 25px;
     }
 
-    .nano-content {
+    .bt-content {
         h3 {
             margin-bottom: 10px;
             color: $white;
@@ -43,11 +43,11 @@
         background-color: $theme-color-2;
         @include transition;
 
-        .nano-icon {
+        .bt-icon {
             background-color: $white;
         }
 
-        .nano-content {
+        .bt-content {
             h3 {
                 color: $header-color;
             }
@@ -80,7 +80,7 @@
     }
 }
 
-.nano-top-category-section {
+.bt-top-category-section {
     position: relative;
     z-index: 9;
 
@@ -146,13 +146,13 @@
     }
 }
 
-.nano-courses-box-items {
+.bt-courses-box-items {
     margin-top: 30px;
     border-radius: 18px;
     background: $bg-color;
     overflow: hidden;
 
-    .nano-courses-image {
+    .bt-courses-image {
         position: relative;
 
         img {
@@ -179,7 +179,7 @@
         }
     }
 
-    .nano-courses-content {
+    .bt-courses-content {
         padding: 30px 30px;
 
         @include breakpoint(max-xxl){
@@ -297,7 +297,7 @@
     }
 
     &:hover {
-        .nano-courses-content {
+        .bt-courses-content {
             .client-info-area {
                display: none;
             }
@@ -309,13 +309,13 @@
     }
 }
 
-.nano-category-box-items-3 {
+.bt-category-box-items-3 {
     border-radius: 18px;
     background: $bg-color;
     padding: 40px 30px;
     @include transition;
 
-    .nano-icon {
+    .bt-icon {
         width: 80px;
         height: 80px;
         line-height: 80px;
@@ -331,7 +331,7 @@
 
     }
 
-    .nano-content {
+    .bt-content {
 
         p {
             font-size: 16px;
@@ -342,7 +342,7 @@
     &:hover {
         background-color: $theme-color;
 
-        .nano-content {
+        .bt-content {
             h4 {
                 color: $white;
             }
@@ -364,16 +364,16 @@
 
 
 
-.nano-courses-details-area {
-    .nano-image {
+.bt-courses-details-area {
+    .bt-image {
         img {
             @include imgw;
             border-radius: 18px;
         }
     }
 
-    .nano-courses-details-wrapper {
-        .nano-left-content {
+    .bt-courses-details-wrapper {
+        .bt-left-content {
             margin-top: 30px;
 
             .list-date {
@@ -929,7 +929,7 @@
 }
 
 
-.nano-courses-wrapper {
+.bt-courses-wrapper {
     .courses-main-sidebar-area {
         .courses-main-sidebar {
             .courses-sidebar-items {
@@ -972,7 +972,7 @@
                    
                 }
 
-                 .nano-search-widget {
+                 .bt-search-widget {
                 form {
                     width: 100%;
                     position: relative;

@@ -1,7 +1,7 @@
-.nano-news-box-items {
+.bt-news-box-items {
     margin-bottom: 3px;
 
-    .nano-image {
+    .bt-image {
         position: relative;
 
         img {
@@ -23,7 +23,7 @@
         }
     }
 
-    .nano-content {
+    .bt-content {
         margin-top: 25px;
 
         .list-box {
@@ -92,7 +92,7 @@
     }
 }
 
-.nano-news-content {
+.bt-news-content {
     margin-left: 50px;
 
     @include breakpoint (max-xl){
@@ -306,24 +306,24 @@
     }
 }
 
-.nano-news-section1 {
+.bt-news-section1 {
     position: relative;
 
 }
 
-.nano-news-grid-wrapper {
-    .nano-news-grid-content {
-        .nano-news-grid-items {
+.bt-news-grid-wrapper {
+    .bt-news-grid-content {
+        .bt-news-grid-items {
             margin-bottom: 40px;
 
-            .nano-grid-image {
+            .bt-grid-image {
                 img {
                     @include imgw;
                     border-radius: 18px;
                 }
             }
 
-            .nano-grid-content {
+            .bt-grid-content {
                 margin-top: 30px;
 
                 .post-box {
@@ -384,7 +384,7 @@
             padding: 30px;
             border-radius: 18px;
 
-            .nano-search-widget {
+            .bt-search-widget {
                 form {
                     width: 100%;
                     position: relative;
@@ -542,17 +542,17 @@
     }
 }
 
-.nano-iamge {
+.bt-iamge {
     img {
         @include imgw;
         border-radius: 18px;
     }
 }
 
-.nano-news-details-wrapper {
+.bt-news-details-wrapper {
     margin-top: 40px;
     
-    .nano-left-content {
+    .bt-left-content {
         .text {
             margin-top: 20px;
         }
@@ -568,7 +568,7 @@
             }
         }
 
-        .nano-image {
+        .bt-image {
             margin-top: 30px;
 
             img {
@@ -577,7 +577,7 @@
             }
         }
 
-        .nano-tag-share-wrap {
+        .bt-tag-share-wrap {
             margin-top: 80px;
 
             @include breakpoint (max-md){
@@ -614,7 +614,7 @@
                 }
             }
 
-            .nano-social-share {
+            .bt-social-share {
                 
                 a {
                     font-size: 16px;
@@ -645,10 +645,10 @@
             }
         }
 
-        .nano-comments-area {
+        .bt-comments-area {
             margin-top: 40px;
 
-            .nano-blog-single-comment {
+            .bt-blog-single-comment {
                 border-bottom: 1.2px solid rgba(191, 191, 191, 0.24);
 
                 @include breakpoint (max-sm){
@@ -656,7 +656,7 @@
                     gap: 20px;
                 }
 
-                &.nano-style-2 {
+                &.bt-style-2 {
                     margin-left: 150px;
 
                     @include breakpoint (max-xl) {
@@ -664,7 +664,7 @@
                     }
                 }
 
-                .nano-content {
+                .bt-content {
                     .head {
                         .con {
                             h5 {
@@ -746,7 +746,7 @@
             padding: 30px;
             border-radius: 18px;
 
-            .nano-search-widget {
+            .bt-search-widget {
                 form {
                     width: 100%;
                     position: relative;

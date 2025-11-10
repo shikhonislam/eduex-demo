@@ -1,9 +1,9 @@
-.nano-programs-box-items-2 {
+.bt-programs-box-items-2 {
     border-radius: 18px;
     background-color: $white;
     margin-top: 30px;
 
-    .nano-image {
+    .bt-image {
         padding: 20px;
         padding-bottom: 0;
 
@@ -13,7 +13,7 @@
         }
     }
 
-    .nano-content {
+    .bt-content {
        padding: 25px 20px;
 
         p {
@@ -60,7 +60,7 @@
         background-color: $bg-color;
         border-radius: 18px;
 
-        .nano-content {
+        .bt-content {
             .theme-btn {
                 i {
                     background-color: $theme-color-2;
@@ -71,7 +71,7 @@
     }
 }
 
-.nano-programs-section-2 {
+.bt-programs-section-2 {
     position: relative;
     margin-top: 40px;
     padding-bottom: 260px !important;
@@ -99,14 +99,14 @@
         height: 138px;
     }
 
-    .nano-program-shape-1 {
+    .bt-program-shape-1 {
         position: absolute;
         z-index: -1;
         top: 10%;
         right: 10%;
     }
 
-    .nano-program-shape-2 {
+    .bt-program-shape-2 {
         position: absolute;
         z-index: -1;
         bottom: 15%;
@@ -116,7 +116,7 @@
 
 
 
-.nano-discount-section {
+.bt-discount-section {
     position: relative;
     z-index: 9;
 
@@ -209,7 +209,7 @@
     }
 }
 
-.nano-choose-us-wrapper {
+.bt-choose-us-wrapper {
     margin-bottom: 55px;
     margin-top: 60px;
 
@@ -226,12 +226,12 @@
        margin-top: -40px;
     }
 
-    .nano-choose-us-content {
+    .bt-choose-us-content {
         .choose-text {
             margin-top: 25px;
         }
 
-        .nano-choose-icon {
+        .bt-choose-icon {
             @include flex;
             gap: 30px;
             margin-top: 50px;
@@ -249,7 +249,7 @@
                 margin-top: 30px;
             }
 
-            .nano-icon-items {
+            .bt-icon-items {
                 @include flex;
                 gap: 20px;
 
@@ -300,7 +300,7 @@
         }
     }
 
-    .nano-choose-image {
+    .bt-choose-image {
         max-width: 600px;
         position: relative;
         z-index: 9;
@@ -320,7 +320,7 @@
             border-radius: 50%;
         }
 
-        .nano-counter-item {
+        .bt-counter-item {
             display: flex;
             gap: 20px;
             border-radius: 10px;
@@ -350,7 +350,7 @@
             }
         }
 
-        .nano-choose-image-2 {
+        .bt-choose-image-2 {
             max-width: 250px;
             position: absolute;
             top: -65px;
@@ -382,7 +382,7 @@
             }
         }
 
-        .nano-choose-image-3 {
+        .bt-choose-image-3 {
             max-width: 300px;
             position: absolute;
             bottom: -65px;
@@ -416,7 +416,7 @@
     }
 }
 
-.nano-choose-us-section2 {
+.bt-choose-us-section2 {
     position: relative;
     margin-bottom: 30px;
 
@@ -430,7 +430,7 @@
     }
 }
 
-.nano-pricing-section-3 {
+.bt-pricing-section-3 {
     .section-title {
         .nav {
 		border: none;
@@ -503,7 +503,7 @@
     }
 }
 
-.nano-pricing-box-items-3 {
+.bt-pricing-box-items-3 {
     border-radius: 18px;
     background: $bg-color;
     padding: 40px 36px;
@@ -643,14 +643,14 @@
     }
 }
 
-.nano-choose-us-wrapper-2 {
+.bt-choose-us-wrapper-2 {
     margin-top: -30px;
 
     @include breakpoint (max-lg){
         margin-top: 0;
     }
 
-    .nano-choose-us-content {
+    .bt-choose-us-content {
         margin-right: 30px;
 
         @include breakpoint (max-xl){
@@ -678,7 +678,7 @@
         }
     }
 
-    .nano-icon-box-items-area {
+    .bt-icon-box-items-area {
         position: relative;
         z-index: 9;
 
@@ -699,8 +699,8 @@
             }
         }
 
-        .nano-box-items {
-            .nano-box {
+        .bt-box-items {
+            .bt-box {
                 border-radius: 23.604px;
                 background: #fff;
                 padding: 50px 30px;
@@ -734,7 +734,7 @@
                 &.style-4 {
                     background-color: $header-color;
 
-                    .nano-counter-item {
+                    .bt-counter-item {
                         h2 {
                             color: $white;
                         }
@@ -849,11 +849,11 @@
 	}
 }
 
-.nano-choose-us-style-22 {
+.bt-choose-us-style-22 {
     margin-top: 30px;
 
-    .nano-box-items {
-        .nano-box {
+    .bt-box-items {
+        .bt-box {
             background-color: #F0F4F5 !important;
 
             .icon {
