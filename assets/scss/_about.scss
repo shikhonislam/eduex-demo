@@ -1,11 +1,11 @@
-.bt-about-wrapper {
+.nano-about-wrapper {
     margin-bottom: 120px;
 
     @include breakpoint (max-xl){
        margin-bottom: 0;
     }
 
-    .bt-about-image {
+    .nano-about-image {
         max-width: 600px;
         position: relative;
         z-index: 9;
@@ -20,7 +20,7 @@
             border-radius: 50%;
         }
 
-        .bt-about-image-2 {
+        .nano-about-image-2 {
             max-width: 250px;
             position: absolute;
             top: -10px;
@@ -46,7 +46,7 @@
             }
         }
 
-        .bt-about-image-3 {
+        .nano-about-image-3 {
             max-width: 300px;
             position: absolute;
             bottom: -120px;
@@ -71,7 +71,7 @@
         }
     }
 
-    .bt-about-content {
+    .nano-about-content {
         margin-left: 60px;
 
         @include breakpoint (max-xl){
@@ -82,7 +82,7 @@
             margin-top: 25px;
         }
 
-        .bt-counter-area {
+        .nano-counter-area {
             @include flex;
             justify-content: space-between;
             margin-top: 35px;
@@ -97,7 +97,7 @@
                 margin-top: 25px;
             }
 
-            .bt-counter-item {
+            .nano-counter-item {
                 border-right: 1px solid rgba(108, 112, 111, 0.3);
                 padding-right: 40px;
 
@@ -140,7 +140,7 @@
             }
         }
 
-        .bt-about-author {
+        .nano-about-author {
             @include flex;
             gap: 30px;
             margin-top: 50px;
@@ -153,7 +153,7 @@
                 margin-top: 25px;
             }
 
-            .bt-author-image {
+            .nano-author-image {
                 @include flex;
                 gap: 15px;
 
@@ -174,14 +174,14 @@
     }
 }
 
-.bt-about-wrapper-2 {
-    .bt-about-image {
+.nano-about-wrapper-2 {
+    .nano-about-image {
         img {
             @include imgw;
         }
     }
 
-    .bt-about-content {
+    .nano-about-content {
         margin-left: 60px;
 
         @include breakpoint (max-xxl){
@@ -330,14 +330,14 @@
             }
         }
 
-        .theme-btn {
+        .theme-nanon {
             margin-top: 50px;
         }
     }
 }
 
-.bt-about-wrapper-3 {
-    .bt-about-content {
+.nano-about-wrapper-3 {
+    .nano-about-content {
         max-width: 635px;
         
         .about-text {
@@ -349,13 +349,13 @@
         }
 
         @include breakpoint (max-md){
-           .theme-btn {
+           .theme-nanon {
              margin-top: 25px !important;
            }
         }
     }
 
-    .bt-about-image {
+    .nano-about-image {
         position: relative;
         max-width: 536px;
         margin-left: 25%;

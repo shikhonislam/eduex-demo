@@ -1,4 +1,4 @@
-.bt-cta-class-wrapper {
+.nano-cta-class-wrapper {
 
      @include breakpoint (max-xl){
         padding: 80px 0;
@@ -41,7 +41,7 @@
             margin-top: 0;
         }
 
-        .theme-btn {
+        .theme-nanon {
             background-color: $white;
             color: $header-color;
             margin-top: 50px;
@@ -67,7 +67,7 @@
     }
 }
 
-.bt-cta-clases-section {
+.nano-cta-clases-section {
     position: relative;
     margin-top: 170px;
 
@@ -92,7 +92,7 @@
     }
 }
 
-.bt-cta-new-wrapper {
+.nano-cta-new-wrapper {
     padding: 120px 30px;
     text-align: center;
     border-radius: 30px;
@@ -143,7 +143,7 @@
             margin-top: 30px;
         }
 
-        .theme-btn {
+        .theme-nanon {
             display: inline-block;
             background-color: $theme-color;
             color: $white;
@@ -175,11 +175,11 @@
     }
 }
 
-.bt-cta-new-wrapper {
+.nano-cta-new-wrapper {
     position: relative;
     z-index: 9;
 
-    .bt-cta-shape-1 {
+    .nano-cta-shape-1 {
         position: absolute;
         z-index: -1;
         bottom: 0;
@@ -190,7 +190,7 @@
         }
     }
 
-    .bt-cta-shape-2 {
+    .nano-cta-shape-2 {
         position: absolute;
         z-index: -1;
         top: 0;
@@ -201,7 +201,7 @@
         }
     }
 
-    .bt-cta-shape-3 {
+    .nano-cta-shape-3 {
         position: absolute;
         z-index: -1;
         bottom: 22%;

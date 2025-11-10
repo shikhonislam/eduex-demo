@@ -1,12 +1,12 @@
-.bt-event-details-area {
-    .bt-image {
+.nano-event-details-area {
+    .nano-image {
         img {
             @include imgw;
             border-radius: 18px;
         }
     }
 
-    .bt-event-details-wrapper {
+    .nano-event-details-wrapper {
        .details-content {
         margin-top: 30px;
 
@@ -126,7 +126,7 @@
             }
         }
 
-        .theme-btn {
+        .theme-nanon {
             width: 100%;
             background-color: $theme-color;
             color: $white;
@@ -199,7 +199,7 @@
                 }
         }
 
-        .share-btn {
+        .share-nanon {
             font-size: 16px;
             font-weight: 600;
             color: $theme-color;
@@ -212,7 +212,7 @@
     } 
 }
 
-.bt-event-box-items-2 {
+.nano-event-box-items-2 {
     margin-top: 30px;
     @include flex;
     border-radius: 18px;
@@ -222,7 +222,7 @@
         display: block;
     }
 
-    .bt-image {
+    .nano-image {
         max-width: 264px;
 
          @include breakpoint (max-xl){
@@ -239,7 +239,7 @@
         }
     }
 
-    .bt-content {
+    .nano-content {
         padding: 0 30px;
         flex-basis: 60%;
 
@@ -271,7 +271,7 @@
             }
         }
 
-        .theme-btn {
+        .theme-nanon {
             background-color: transparent;
             color: $header-color;
             border-radius: 30px;
