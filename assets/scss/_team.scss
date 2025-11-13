@@ -1,7 +1,7 @@
-.nano-team-box-items {
+.bt-team-box-items {
     margin-top: 30px;
 
-    .nano-image {
+    .bt-image {
         position: relative;
 
         img {
@@ -9,7 +9,7 @@
             border-radius: 18px;
         }
 
-        .nano-content {
+        .bt-content {
             position: absolute;
             border-radius: 10px;
             background: $white;
@@ -44,7 +44,7 @@
         }
 
          &:hover {
-                .nano-content {
+                .bt-content {
                     opacity: 1;
                     visibility: visible;
                 }
@@ -52,8 +52,8 @@
     }
 }
 
-.nano-team-wrapper-3 {
-    .nano-team-image-items {
+.bt-team-wrapper-3 {
+    .bt-team-image-items {
         margin-right: 50px;
 
          @include breakpoint (max-xxl){
@@ -178,7 +178,7 @@
         }
     }
 
-    .nano-team-content {
+    .bt-team-content {
         border-radius: 18px;
         background: #223635;
         padding: 35px;
@@ -224,7 +224,7 @@
             color: $white;
         }
 
-        .nano-team-image {
+        .bt-team-image {
             margin-top: 20px;
 
             .image {
@@ -245,20 +245,20 @@
     }
 }
 
-.nano-team-section {
+.bt-team-section {
     position: relative;
     // margin-top: 30px;
 }
 
-.nano-team-details-wrapper {
-    .nano-team-details-left-image {
+.bt-team-details-wrapper {
+    .bt-team-details-left-image {
         margin-right: 90px;
 
         @include breakpoint (max-xl){
             margin-right: 0;
         }
 
-        .nano-image {
+        .bt-image {
             position: relative;
 
             img {
@@ -292,7 +292,7 @@
         }
     }
 
-    .nano-team-details-right-content {
+    .bt-team-details-right-content {
         h4 {
             color: $theme-color;
             margin-bottom: 25px;
@@ -336,7 +336,7 @@
         }
     }
 
-    .nano-middle-content {
+    .bt-middle-content {
         margin-top: 60px;
 
         @include breakpoint (max-md){
@@ -386,7 +386,7 @@
         }
     }
 
-    .nano-pro-items {
+    .bt-pro-items {
         margin-top: 100px;
 
          @include breakpoint (max-xl){
@@ -467,7 +467,7 @@
     }
 }
 
-.nano-team-section-3 {
+.bt-team-section-3 {
     position: relative;
     margin-top: 40px;
     padding-bottom: 195px !important;
@@ -581,7 +581,7 @@
                 }
             }
 
-            .plus-nanon {
+            .plus-btn {
                 z-index: 2;
                 cursor: pointer;
                 width: 50px;
@@ -675,7 +675,7 @@
                     }
                 }
     
-                .plus-nanon {
+                .plus-btn {
                     width: 40px;
                     height: 40px;
                     line-height: 40px;

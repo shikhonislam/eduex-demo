@@ -1,4 +1,4 @@
-.nano-footer-wrapper {
+.bt-footer-wrapper {
     padding: 50px 0 80px;
     position: relative;
     z-index: 9;
@@ -15,10 +15,10 @@
         padding: 50px 0 80px;
     }
 
-    .nano-footer-widget-items {
+    .bt-footer-widget-items {
         margin-top: 30px;
 
-        .nano-widget-head {
+        .bt-widget-head {
             margin-bottom: 30px;
 
             h3 {
@@ -26,7 +26,7 @@
             }
         }
 
-        .nano-footer-content {
+        .bt-footer-content {
             .footer-input {
                 input {
                     border: none;
@@ -38,7 +38,7 @@
                     outline: none;
                 }
 
-                .theme-nanon {
+                .theme-btn {
                     padding: 21px 22px;
                     border-radius: 6px;
                     width: 100%;
@@ -90,7 +90,7 @@
                 }
             }
 
-            .nano-footer-nanon {
+            .bt-footer-btn {
                 @include flex;
                 gap: 16px;
                 margin-top: 44px;
@@ -99,7 +99,7 @@
                     flex-wrap: wrap;
                 }
 
-                .footer-nanon {
+                .footer-btn {
                     display: inline-block;
                     font-size: 16px;
                     font-weight: 600;
@@ -194,7 +194,7 @@
                 }
             }
 
-        .nano-contact-list {
+        .bt-contact-list {
             li {
                 @include flex;
                 gap: 16px;
@@ -251,14 +251,14 @@
             padding: 50px 0 60px;
         }
 
-        .nano-footer-widget-items {
-             .nano-widget-head {
+        .bt-footer-widget-items {
+             .bt-widget-head {
                 h3 {
                     color: $header-color;
                 }
             }
 
-            .nano-footer-content {
+            .bt-footer-content {
                  .social-icon {
                     @include flex;
                     gap: 10px;
@@ -301,7 +301,7 @@
     }
 
     &.style-new-3 {
-        .nano-footer-content {
+        .bt-footer-content {
             p {
                 color: #F0F4F5 !important;
             }
@@ -334,13 +334,13 @@
     }
 }
 
-.nano-footer-section {
+.bt-footer-section {
     position: relative;
 
     &.style-contact-page {
         margin-top: 0;
 
-        .nano-footer-wrapper {
+        .bt-footer-wrapper {
             padding: 90px 0 120px;
 
              @include breakpoint (max-xl){
@@ -352,7 +352,7 @@
             }
         }
 
-        .nano-footer-bg-1 {
+        .bt-footer-bg-1 {
 
         @include breakpoint (max-xl4){
             display: none;
@@ -364,7 +364,7 @@
         }
     }
 
-    .nano-footer-bg-1 {
+    .bt-footer-bg-1 {
 
         @include breakpoint (max-xl4){
             display: none;
@@ -388,7 +388,7 @@
     }
 }
 
-.nano-footer-bottom {
+.bt-footer-bottom {
     p {
        color: #FFF !important;
     }
@@ -405,13 +405,13 @@
         background-color: transparent;
         padding: 0;
 
-        .nano-footer-bottom-wrapper {
+        .bt-footer-bottom-wrapper {
             border-top: 1px solid rgba(255, 255, 255, 0.30);
             padding: 18px 0;
         }
     }
 
-    .nano-footer-bottom-wrapper {
+    .bt-footer-bottom-wrapper {
         @include flex;
         justify-content: space-between;
 
@@ -453,7 +453,7 @@
     }
 }
 
-.nano-footer-section {
+.bt-footer-section {
     position: relative;
     margin-top: -30px;
 
@@ -516,7 +516,7 @@
     }
 }
 
-.nano-footer-bottom-wrapper-2 {
+.bt-footer-bottom-wrapper-2 {
     @include flex;
     justify-content: space-between;
     border-top: 1px solid rgba(108, 112, 111, 0.30);

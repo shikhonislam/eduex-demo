@@ -105,10 +105,10 @@
         
 
     /* ================================
-       nano Testimonial Slider Js Start
+       bt Testimonial Slider Js Start
     ================================ */
-    if($('.nano-top-category-slider').length > 0) {
-        const nanoTopCategorySlider = new Swiper(".nano-top-category-slider", {
+    if($('.bt-top-category-slider').length > 0) {
+        const btTopCategorySlider = new Swiper(".bt-top-category-slider", {
             spaceBetween: 30,
             speed: 1300,
             loop: true,
@@ -141,10 +141,10 @@
     }
 
      /* ================================
-       nano Testimonial Slider Js Start
+       bt Testimonial Slider Js Start
     ================================ */
-    if($('.nano-testimonial-slider').length > 0) {
-        const nanoTestimonialSlider = new Swiper(".nano-testimonial-slider", {
+    if($('.bt-testimonial-slider').length > 0) {
+        const btTestimonialSlider = new Swiper(".bt-testimonial-slider", {
             spaceBetween: 30,
             speed: 1300,
             loop: true,
@@ -207,10 +207,10 @@
 	}
 
     /* ================================
-       nano News Slider Js Start
+       bt News Slider Js Start
     ================================ */
-    if($('.nano-news-slider').length > 0) {
-        const nanoNewsSlider = new Swiper(".nano-news-slider", {
+    if($('.bt-news-slider').length > 0) {
+        const btNewsSlider = new Swiper(".bt-news-slider", {
             spaceBetween: 30,
             speed: 1300,
             loop: true,
@@ -240,10 +240,10 @@
     }
 
     /* ================================
-       nano Team Slider Js Start
+       bt Team Slider Js Start
     ================================ */
-    if($('.nano-team-slider').length > 0) {
-        const nanoTeamSlider = new Swiper(".nano-team-slider", {
+    if($('.bt-team-slider').length > 0) {
+        const btTeamSlider = new Swiper(".bt-team-slider", {
             spaceBetween: 30,
             speed: 1300,
             loop: true,
@@ -273,10 +273,10 @@
     }
     
     /* ================================
-       nano Programs Slider Js Start
+       bt Programs Slider Js Start
     ================================ */
-    if($('.nano-programs-slider').length > 0) {
-        const nanoProgramsSlider = new Swiper(".nano-programs-slider", {
+    if($('.bt-programs-slider').length > 0) {
+        const btProgramsSlider = new Swiper(".bt-programs-slider", {
             spaceBetween: 30,
             speed: 1300,
             loop: true,

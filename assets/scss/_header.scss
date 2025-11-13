@@ -342,7 +342,7 @@
             color: $header-color;
         }
 
-        .theme-nanon {
+        .theme-btn {
             @include breakpoint (max-xl){
                  display: none;
             }
@@ -648,7 +648,7 @@
 			}
 		}
 
-		.theme-nanon {
+		.theme-btn {
 			text-align: center;
 		}
 	}
@@ -811,7 +811,7 @@
 		}
 	}
 
-    .theme-nanon {
+    .theme-btn {
         margin-top: 60px;
 
         i {

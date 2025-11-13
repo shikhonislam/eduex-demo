@@ -1,8 +1,8 @@
-.nano-faq-wrapper-3 {
-    .nano-faq-images-items {
+.bt-faq-wrapper-3 {
+    .bt-faq-images-items {
         position: relative;
 
-        .nano-counter-item {
+        .bt-counter-item {
             background-color: $theme-color-2;
             color: $header-color;
             border-radius: 10px;
@@ -22,7 +22,7 @@
             }
         }
 
-        .nano-image {
+        .bt-image {
             
             img {
                 @include imgw;
@@ -31,7 +31,7 @@
             }
         }
 
-        .nano-image-2 {
+        .bt-image-2 {
             margin-bottom: 30px;
             img {
                 @include imgw;
@@ -39,7 +39,7 @@
             }
         }
 
-        .nano-image-3 {
+        .bt-image-3 {
             img {
                 @include imgw;
                 border-radius: 18px;
@@ -140,7 +140,7 @@
     }
 }
 
-.nano-faq-section-3 {
+.bt-faq-section-3 {
     position: relative;
     margin-top: 30px;
 
